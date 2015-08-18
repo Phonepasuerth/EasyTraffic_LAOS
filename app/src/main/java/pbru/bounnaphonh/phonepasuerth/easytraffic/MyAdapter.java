@@ -41,15 +41,15 @@ public class MyAdapter extends BaseAdapter{
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        LayoutInflater =  objContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view1 = objLayoutInflaster.inflate(R.layout.my_listview, viewGroup, false);
+        LayoutInflater objLayoutInflater  = (LayoutInflater) objContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View view1 = objLayoutInflater.inflate(R.layout.my_listview, viewGroup, false);
         //Show Icon
         ImageView iconImageView = (ImageView) view1.findViewById(R.id.imvShownIcon);
         iconImageView.setBackgroundResource(trafficInts[i]);
         //Show title
         TextView titleTextView = (TextView) view1.findViewById(R.id.txtShowTitle);
         titleTextView.setText(trafficStrings[i]);
-
         return view1;
-    }
+    }// Getview
 }//  Main Class

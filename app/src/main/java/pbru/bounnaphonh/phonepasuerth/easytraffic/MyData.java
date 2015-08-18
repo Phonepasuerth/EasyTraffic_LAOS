@@ -24,7 +24,8 @@ public class MyData {
         strTitle[15]="ທາງເຂົ້າ";
         strTitle[16]="ກະລຸນາຢຸດລົດ";
         strTitle[17]="ຈໍາກັດຄວາມໄວທີ່ 50km/hrs";
-
+        strTitle[18] = "ຈໍາກັດຄວາມໄວທີ່ 2.5 Km/hrs";
+        strTitle[19]="ຈໍາກັດຄວາມສູງ 5 m";
         return new String[0];
     }
 }
