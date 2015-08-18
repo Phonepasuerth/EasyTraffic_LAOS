@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Easy Traffic</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">ປ້າຍຈາລະຈອນ</string>// Title mean head with master
+    <string name="test">ທົດສອບ</string>
+    <string name="about_me">ກ່ຽວກັບເຮົາ</string>
+</resources>
